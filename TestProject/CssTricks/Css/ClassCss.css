@@ -1,0 +1,22 @@
+﻿body {
+}
+
+.menu {
+    
+}
+.menuHeader {
+    background-image: url();
+}
+.menu > li {
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    position: absolute;
+}
+.menu > li:hover {
+    background-color: aliceblue;
+    position: relative;
+    z-index: 0;
+}

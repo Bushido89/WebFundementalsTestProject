@@ -110,8 +110,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CssTricks\CssTricks.html" />
+    <Content Include="CssTricks\Css\ClassCss.css" />
+    <Content Include="CssTricks\Js\ClassJs.js" />
+    <Content Include="CssTricks\Js\DAL.js" />
+    <Content Include="CssTricks\Js\Store.js" />
     <Content Include="DataCapture\DataCaptureHandler.ashx" />
     <Content Include="Generic\CarRentalInformation.ashx" />
+    <Content Include="Generic\LeagueTable.ashx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -135,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\ClientGate.cs" />
+    <Compile Include="DAL\LeagueTableGate.cs" />
     <Compile Include="DAL\VehicleGate.cs" />
     <Compile Include="DataCapture\DataCaptureHandler.ashx.cs">
       <DependentUpon>DataCaptureHandler.ashx</DependentUpon>
@@ -142,10 +149,14 @@
     <Compile Include="Generic\CarRentalInformation.ashx.cs">
       <DependentUpon>CarRentalInformation.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Generic\LeagueTable.ashx.cs">
+      <DependentUpon>LeagueTable.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Model\Client.cs" />
+    <Compile Include="Model\LeagueTableEntry.cs" />
     <Compile Include="Model\Vehicle.cs" />
     <Compile Include="Model\VehicleManufacturer.cs" />
     <Compile Include="Model\VehicleModel.cs" />
