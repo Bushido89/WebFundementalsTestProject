@@ -1,6 +1,7 @@
 # WebFundementalsTestProject
 Intended for use by the class as an API endpoint
 
+Db backup can be found at the root directory, IP addresses in the links below are of course subject to change
 
 Test urls:
 Vehicles
