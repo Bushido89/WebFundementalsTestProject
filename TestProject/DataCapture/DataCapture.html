@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="../DataCapture/Css/DataCapture.css" />
+    <link rel="stylesheet" href="../DataCapture/Css/pikaday.css" />
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" />
+</head>
+<body>
+    <div id="ContactFormContainer">
+        <form id="frmMain" class="pure-form pure-form-aligned">
+            <fieldset class="formSection pure-control-group">
+                <ul>
+                    <li id="FornameContainer">
+                        <span id="FornameLabel" class="label">Forename:</span>
+                        <input type="text" id="ForenameTxt" class="" />
+                    </li>
+                    <li id="MiddlenameContainer">
+                        <span id="MiddleNameLabel" class="label">Middle Names(s):</span>
+                        <input type="text" id="MiddleNameTxt" class="" />
+                    </li>
+                    <li id="SurnameContainer">
+                        <span id="SurnameLabel" class="label">Surname:</span>
+                        <input type="text" id="SurnameTxt" class="" />
+                    </li>
+                    <li id="DateOfBirthContainer">
+                        <span id="DateOfBirthLabel" class="label">DateOfBirth:</span>
+                        <input type="text" id="DateOfBirthTxt" />
+                    </li>
+                    <li id="NINumberContainer">
+                        <span id="NINumberLabel" class="label">NI Number:</span>
+                        <input type="text" id="NINumberTxt" />
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset class="formSection pure-control-group">
+                <ul>
+                    <li id="AddressLineOne">
+                        <span id="AddressLineOneLabel" class="label">Address Line 1</span>
+                        <input type="text" id="AddressLineOneTxt" />
+                    </li>
+                    <li id="AddressLineTwo">
+                        <span id="AddressLineOneLabel" class="label">Address Line 2</span>
+                        <input type="text" id="AddressLineTwoTxt" />
+                    </li>
+                    <li id="AddressLineThree">
+                        <span id="AddressLineOneLabel" class="label">Address Line 3</span>
+                        <input type="text" id="AddressLineThreeTxt" />
+                    </li>
+                    <li id="AddressLineFour">
+                        <span id="AddressLineOneLabel" class="label">Address Line 4</span>
+                        <input type="text" id="AddressLineFourTxt" />
+                    </li>
+                    <li id="EmailAddressContainer">
+                        <span id="EmailAddressLabel" class="label">Email Address:</span>
+                        <input type="text" id="EmailAddressTxt" />
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset class="formSection pure-control-group">
+                Photograph of Id here
+            </fieldset>
+            <button type="button" id="SubmitButton">Submit</button>
+        </form>
+    </div>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://dbushell.com/Pikaday/pikaday.js"></script>
+    <script src="https://unpkg.com/dexie@^2.0.0-beta/dist/dexie.js"></script>
+    <script src="../Js/StringExt.js"></script>
+    <script src="Js/Store.js"></script>
+    <script src="Js/DAL.js"></script>
+    <script src="Js/View.js"></script>
+
+</body>
+</html>
