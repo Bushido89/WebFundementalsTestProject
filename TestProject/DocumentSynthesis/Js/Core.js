@@ -16,7 +16,7 @@
         };
 
         function applyValidation(data) {
-            return true;
+            data.userName = data.userName.toLower();
         };
 
         (function init() {
