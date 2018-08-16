@@ -124,6 +124,7 @@
     <Content Include="DocumentSynthesis\Js\View.js" />
     <Content Include="Generic\CarRentalInformation.ashx" />
     <Content Include="Generic\LeagueTable.ashx" />
+    <Content Include="DocumentSynthesis\DocumentSynthesis.ashx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -151,6 +152,9 @@
     <Compile Include="DAL\VehicleGate.cs" />
     <Compile Include="DataCapture\DataCaptureHandler.ashx.cs">
       <DependentUpon>DataCaptureHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="DocumentSynthesis\DocumentSynthesis.ashx.cs">
+      <DependentUpon>DocumentSynthesis.ashx</DependentUpon>
     </Compile>
     <Compile Include="Generic\CarRentalInformation.ashx.cs">
       <DependentUpon>CarRentalInformation.ashx</DependentUpon>
