@@ -3,8 +3,46 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/sb-admin.css" />
+    <link rel="stylesheet" href="Css/DocumentSynthesis.css" />
 </head>
 <body>
+    <h1>Digital Profile Data Entry</h1>
+    <form class="inputForm">
+        <fieldset>
+            <input type="text" id="userName" class="form-control" placeholder="Please enter your (lower case) name here..." />
+            <select id="favouriteSport" class="form-control">
+                <option value="-1">What's your favourite sport?</option>
+                <option value="0">Football</option>
+                <option value="1">Rugby</option>
+                <option value="3">MMA</option>
+                <option value="4">Cricket</option>
+            </select>
+            <textarea id="lastFiveProjects" class="form-control" placeholder="Your last five projects (comma delimited) here..."></textarea>
+            <textarea id="interestingFacts" class="form-control" placeholder="Write some interesting facts about yourself here..."></textarea>
+            <textarea id="favouriteFood" class="form-control" placeholder="What are your favourite meals?"></textarea>
+            <textarea id="interestingFacts" class="form-control" placeholder="How about your claims to fame?"></textarea>
+        </fieldset>
+        <fieldset>
+            <input type="file" id="favouriteAnimal" class="inputfile form-control-media" placeholder="TestHere" />
+            <label for="favouriteAnimal">Upload Favourite Animal Here...</label>
+            <input type="file" name="audioClip" id="AudioClip" class="inputfile form-control-media" />
+            <label for="audioClip">Upload Verification Audio Clip Here...</label>
+        </fieldset>
+        <div id="imgFavouriteAnimal" class="" data-rel-path="UserImages">
 
+        </div>
+        <div id="sndAudioClip" class="" data-rel-path="UserAudioClips">
+
+        </div>
+        <input type="submit" id="submitButton" class="btn btn-primary" data-rel-path="UserAudioClips" />
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="Js/DAL.js"></script>
+    <script src="Js/Store.js"></script>
+    <script src="Js/Core.js"></script>
+    <script src="Js/View.js"></script>
 </body>
 </html>

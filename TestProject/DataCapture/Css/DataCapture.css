@@ -7,7 +7,7 @@
     width: 400px;
 }
 ul {
-    /*list-style: none;*/
+    list-style: none;
     list-style-image: url()
 }
 input[type=text], select {

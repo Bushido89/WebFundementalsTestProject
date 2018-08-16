@@ -112,10 +112,16 @@
   <ItemGroup>
     <Content Include="CssTricks\CssTricks.html" />
     <Content Include="CssTricks\Css\ClassCss.css" />
-    <Content Include="CssTricks\Js\ClassJs.js" />
+    <Content Include="CssTricks\Js\View.js" />
     <Content Include="CssTricks\Js\DAL.js" />
     <Content Include="CssTricks\Js\Store.js" />
     <Content Include="DataCapture\DataCaptureHandler.ashx" />
+    <Content Include="DocumentSynthesis\Css\DocumentSynthesis.css" />
+    <Content Include="DocumentSynthesis\Css\sb-admin.css" />
+    <Content Include="DocumentSynthesis\Js\Core.js" />
+    <Content Include="DocumentSynthesis\Js\DAL.js" />
+    <Content Include="DocumentSynthesis\Js\Store.js" />
+    <Content Include="DocumentSynthesis\Js\View.js" />
     <Content Include="Generic\CarRentalInformation.ashx" />
     <Content Include="Generic\LeagueTable.ashx" />
     <None Include="packages.config" />
@@ -163,8 +169,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DocumentSynthesis\Css\" />
-    <Folder Include="DocumentSynthesis\Js\" />
+    <Folder Include="DocumentSynthesis\UserAudioClips\" />
+    <Folder Include="DocumentSynthesis\UserImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
