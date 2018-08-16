@@ -9,7 +9,7 @@
                 type: 'POST',
                 url: '/DataCapture/DataCaptureHandler.ashx',
                 dataType: 'text',
-                data: JSON.stringify(window.store)
+                data: JSON.stringify(window.store.data)
             }).done(function (data) {
                 if (callback) {
                     callback();
