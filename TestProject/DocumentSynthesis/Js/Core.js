@@ -1,4 +1,5 @@
 ﻿(function coreContainer(window) {
+    'use strict';
     window.core = new Core();
 
     function Core() {
@@ -17,6 +18,7 @@
 
         function applyValidation(data) {
             data.userName = data.userName.toLower();
+            data.favouriteSport = parseInt(data.favouriteSport);
         };
 
         (function init() {

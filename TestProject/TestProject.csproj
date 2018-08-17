@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\ClientGate.cs" />
+    <Compile Include="DAL\DigitalProfileGate.cs" />
     <Compile Include="DAL\LeagueTableGate.cs" />
     <Compile Include="DAL\VehicleGate.cs" />
     <Compile Include="DataCapture\DataCaptureHandler.ashx.cs">
@@ -166,6 +167,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Model\Client.cs" />
+    <Compile Include="Model\DigitalProfile.cs" />
     <Compile Include="Model\LeagueTableEntry.cs" />
     <Compile Include="Model\Vehicle.cs" />
     <Compile Include="Model\VehicleManufacturer.cs" />

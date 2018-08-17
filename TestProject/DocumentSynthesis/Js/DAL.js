@@ -7,7 +7,7 @@
             $.ajax({
                 cache: false,
                 type: 'POST',
-                url: '/DocumentSynthesis/DocumentSynthesis.ashx',
+                url: '/DocumentSynthesis/DocumentSynthesis.ashx?req="UploadDigitalProfile"',
                 dataType: 'text',
                 data: JSON.stringify(window.store.data)
             }).done(function (data) {

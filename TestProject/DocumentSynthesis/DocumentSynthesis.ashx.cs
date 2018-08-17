@@ -10,7 +10,7 @@ namespace TestProject.DocumentSynthesis
     /// </summary>
     public class DocumentSynthesis : IHttpHandler
     {
-
+        private Dictionary<string, Func<HttpContext, object>> logicCalls = new Dictionary<string, Func<HttpContext, object>>();
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/plain";
